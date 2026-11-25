@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1180" height="610" viewBox="0 0 1180 610" role="img"
+     aria-labelledby="title desc">
+  <title id="title">Ryno C De Koker — Junior Software Developer</title>
+  <desc id="desc">A terminal-inspired profile for Ryno C De Koker, a junior software developer in South Africa, featuring software development focus areas, selected technologies, and projects.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#102238"/>
+      <animate attributeName="x2" values="1;0.75;1" dur="18s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/><stop offset=".55" stop-color="#67E8F9"/><stop offset="1" stop-color="#34D399"/>
+      <animate attributeName="x1" values="0;1;0" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity=".18"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#29435B" stroke-width=".6" opacity=".42"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <clipPath id="frame"><rect x="12" y="12" width="1156" height="586" rx="22"/></clipPath>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .muted { fill:#91A4B8; } .accent { fill:#67E8F9; } .fg { fill:#F1F5F9; }
+      .tiny { font-size:10px; letter-spacing:1.6px; }
+      .small { font-size:11px; } .label { font-size:10px; letter-spacing:1.3px; fill:#91A4B8; }
+      .value { font-size:13px; fill:#F1F5F9; }
+      .ascii { font-size:10px; letter-spacing:1.1px; fill:#67E8F9; }
+      .pill { font-size:10px; fill:#F1F5F9; }
+      .project { font-size:12px; fill:#F1F5F9; }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect x="12" y="12" width="1156" height="586" rx="22" fill="url(#bgGrad)"/>
+    <rect x="12" y="12" width="1156" height="586" fill="url(#grid)" opacity=".55"/>
+    <circle cx="235" cy="300" r="270" fill="url(#orb)"/>
+    <circle cx="1000" cy="70" r="240" fill="url(#orb)" opacity=".7"/>
+    <rect x="12" y="12" width="1156" height="586" rx="22" fill="none" stroke="#29435B" stroke-width="1.4"/>
+    <!-- Editor chrome -->
+    <rect x="12" y="12" width="1156" height="42" fill="#0D1B2B" opacity=".92"/>
+    <path d="M12 54H1168" stroke="#29435B"/>
+    <circle cx="36" cy="33" r="5" fill="#FB7185"/><circle cx="54" cy="33" r="5" fill="#FBBF24"/><circle cx="72" cy="33" r="5" fill="#34D399"/>
+    <text x="94" y="37" class="small muted">ryn o@profile:~ / system.info</text>
+    <text x="1068" y="37" text-anchor="end" class="tiny accent">● ONLINE</text>
+    <text x="1138" y="37" text-anchor="end" class="tiny muted">v1.0</text>
+    <!-- Left panel -->
+    <rect x="34" y="76" width="548" height="496" rx="16" fill="#0D1B2B" fill-opacity=".62" stroke="#29435B"/>
+    <text x="60" y="106" class="tiny accent">VISUAL.MAP</text>
+    <text x="556" y="106" text-anchor="end" class="tiny muted">IDENTITY / 001</text>
+    <path d="M60 120H556" stroke="#29435B"/>
+    <rect x="60" y="140" width="496" height="246" rx="12" fill="#102238" fill-opacity=".62" stroke="#29435B"/>
+    <text x="78" y="163" class="tiny muted">SIGNAL.FIELD // ABSTRACT REPRESENTATION</text>
+    <text x="78" y="204" class="ascii" opacity="0">  .  .  . .. .· ..  .  .  .<animate attributeName="opacity" values="0;0.9" begin="0.35s" dur=".45s" fill="freeze"/></text><text x="78" y="216" class="ascii" opacity="0">.· .· .·.·:·:+·::···..· .· <animate attributeName="opacity" values="0;0.9" begin="0.39s" dur=".45s" fill="freeze"/></text><text x="78" y="228" class="ascii" opacity="0"> .. .:·:+::+:++::+·::... ..<animate attributeName="opacity" values="0;0.9" begin="0.44s" dur=".45s" fill="freeze"/></text><text x="78" y="240" class="ascii" opacity="0">. .·.:+:+*:+*++*:++:::..·  <animate attributeName="opacity" values="0;0.9" begin="0.48s" dur=".45s" fill="freeze"/></text><text x="78" y="252" class="ascii" opacity="0"> .:·:*+*#**#*##**#+**::+..·<animate attributeName="opacity" values="0;0.9" begin="0.53s" dur=".45s" fill="freeze"/></text><text x="78" y="264" class="ascii" opacity="0">·.·+:+*+*#*#%*#%*##+**:::..<animate attributeName="opacity" values="0;0.9" begin="0.57s" dur=".45s" fill="freeze"/></text><text x="78" y="276" class="ascii" opacity="0">.:·:+:*#*#%*#%*#%**#+++·:: <animate attributeName="opacity" values="0;0.9" begin="0.62s" dur=".45s" fill="freeze"/></text><text x="78" y="288" class="ascii" opacity="0">··:*+*#*#%#%%#%%##%**#+++··<animate attributeName="opacity" values="0;0.9" begin="0.67s" dur=".45s" fill="freeze"/></text><text x="78" y="300" class="ascii" opacity="0">.:·:*+*#*#%##%##%*##++*:::.<animate attributeName="opacity" values="0;0.9" begin="0.71s" dur=".45s" fill="freeze"/></text><text x="78" y="312" class="ascii" opacity="0"> .:·:*+*#*##*#%*##+**::+...<animate attributeName="opacity" values="0;0.9" begin="0.75s" dur=".45s" fill="freeze"/></text><text x="78" y="324" class="ascii" opacity="0">.·.:+:+*+*#*#%*##***+++··· <animate attributeName="opacity" values="0;0.9" begin="0.80s" dur=".45s" fill="freeze"/></text><text x="78" y="336" class="ascii" opacity="0"> .·.·+:+*++*+**++*:++··· ..<animate attributeName="opacity" values="0;0.9" begin="0.84s" dur=".45s" fill="freeze"/></text><text x="78" y="348" class="ascii" opacity="0">.  . ·:·:+·:+::+·::···  .  <animate attributeName="opacity" values="0;0.9" begin="0.89s" dur=".45s" fill="freeze"/></text><text x="78" y="360" class="ascii" opacity="0"> .· .·.·:·::·:+·::.·· .· .·<animate attributeName="opacity" values="0;0.9" begin="0.93s" dur=".45s" fill="freeze"/></text><text x="78" y="372" class="ascii" opacity="0">. .. .. .. .· .· .. .. .. .<animate attributeName="opacity" values="0;0.9" begin="0.98s" dur=".45s" fill="freeze"/></text>
+    <path d="M60 405H556" stroke="#29435B"/>
+    <text x="60" y="438" class="tiny muted">PROFILE / ENGINEERING</text>
+    <text x="60" y="472" class="fg" font-size="25" font-weight="700">Junior Software</text>
+    <text x="60" y="501" class="fg" font-size="25" font-weight="700">Developer<span class="accent">.</span></text>
+    <text x="60" y="529" class="small muted">Building practical software. Learning continuously.</text>
+    <text x="60" y="554" class="small accent">~/profile $ <tspan class="fg">build --learn --ship</tspan><animate attributeName="opacity" values="1;1;.35;1" dur="1.3s" repeatCount="indefinite"/></text>
+    <!-- Right panel -->
+    <rect x="604" y="76" width="542" height="496" rx="16" fill="#0D1B2B" fill-opacity=".72" stroke="#29435B"/>
+    <text x="632" y="106" class="tiny accent">SYSTEM.INFO</text>
+    <text x="1118" y="106" text-anchor="end" class="tiny muted">PROFILE.SYS</text>
+    <path d="M632 120H1118" stroke="#29435B"/>
+    <text x="632" y="151" class="small muted">user@profile:~$ ./profile.sh</text>
+    <text x="632" y="184" class="label">NAME</text><text x="770" y="184" class="value" font-weight="700">Ryno C De Koker</text>
+    <text x="632" y="210" class="label">ROLE</text><text x="770" y="210" class="value">Junior Software Developer</text>
+    <text x="632" y="236" class="label">STATUS</text><text x="770" y="236" class="value">Student · WIL experience</text>
+    <text x="632" y="262" class="label">LOCATION</text><text x="770" y="262" class="value">South Africa</text>
+    <text x="632" y="288" class="label">FOCUS</text><text x="770" y="288" class="value">Software · Backend · Web · Databases</text>
+    <path d="M632 309H1118" stroke="#29435B"/>
+    <text x="632" y="336" class="tiny accent">SELECTED.STACK</text>
+    <rect x="640" y="392" width="94.0" height="25" rx="12.5" fill="#102238" stroke="#29435B"/>
+        <circle cx="652" cy="404.5" r="3" fill="#34D399"/>
+        <text x="661" y="408.5" class="pill">TypeScript</text><rect x="742.0" y="392" width="94.0" height="25" rx="12.5" fill="#102238" stroke="#29435B"/>
+        <circle cx="754.0" cy="404.5" r="3" fill="#34D399"/>
+        <text x="763.0" y="408.5" class="pill">JavaScript</text><rect x="844.0" y="392" width="65.2" height="25" rx="12.5" fill="#102238" stroke="#29435B"/>
+        <circle cx="856.0" cy="404.5" r="3" fill="#34D399"/>
+        <text x="865.0" y="408.5" class="pill">Python</text><rect x="917.2" y="392" width="50.8" height="25" rx="12.5" fill="#102238" stroke="#29435B"/>
+        <circle cx="929.2" cy="404.5" r="3" fill="#34D399"/>
+        <text x="938.2" y="408.5" class="pill">Java</text><rect x="976.0" y="392" width="58.0" height="25" rx="12.5" fill="#102238" stroke="#29435B"/>
+        <circle cx="988.0" cy="404.5" r="3" fill="#34D399"/>
+        <text x="997.0" y="408.5" class="pill">React</text><rect x="1042.0" y="392" width="72.4" height="25" rx="12.5" fill="#102238" stroke="#29435B"/>
+        <circle cx="1054.0" cy="404.5" r="3" fill="#34D399"/>
+        <text x="1063.0" y="408.5" class="pill">Node.js</text><rect x="640" y="426" width="72.4" height="25" rx="12.5" fill="#102238" stroke="#29435B"/>
+        <circle cx="652" cy="438.5" r="3" fill="#34D399"/>
+        <text x="661" y="442.5" class="pill">Express</text><rect x="720.4" y="426" width="43.6" height="25" rx="12.5" fill="#102238" stroke="#29435B"/>
+        <circle cx="732.4" cy="438.5" r="3" fill="#34D399"/>
+        <text x="741.4" y="442.5" class="pill">SQL</text>
+    <path d="M632 464H1118" stroke="#29435B"/>
+    <text x="632" y="487" class="tiny accent">FEATURED.WORK</text>
+    <text x="640" y="510" class="tiny accent">01</text>
+        <text x="670" y="510" class="project">Student Assignment &amp; Quiz Reminder</text>
+        <text x="670" y="526" class="muted small">Assignments and quiz reminder web application</text><text x="640" y="548" class="tiny accent">02</text>
+        <text x="670" y="548" class="project">Worksheet Factory</text>
+        <text x="670" y="564" class="muted small">Worksheet creation and PDF generation</text><text x="640" y="586" class="tiny accent">03</text>
+        <text x="670" y="586" class="project">Company Website</text>
+        <text x="670" y="602" class="muted small">Website development through WIL</text>
+    <text x="1118" y="558" text-anchor="end" class="tiny muted">GITHUB PROFILE // SOUTH AFRICA</text>
+    <!-- Fine scanline and edge shimmer -->
+    <rect x="20" y="0" width="1140" height="2" fill="url(#accentGrad)" opacity=".55">
+      <animate attributeName="y" values="70;590;70" dur="16s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="12" y="12" width="1156" height="586" rx="22" fill="none" stroke="url(#accentGrad)" stroke-width="1" opacity=".32">
+      <animate attributeName="opacity" values=".18;.42;.18" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
